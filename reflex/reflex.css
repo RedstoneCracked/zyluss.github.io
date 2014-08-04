@@ -160,3 +160,6 @@ a {
 	#memberinfo #ytlink:hover polygon {
 		fill: #ef4136;
 	}
+	#memberinfo #info {
+		font-weight: 400;
+	}

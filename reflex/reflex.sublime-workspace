@@ -83,7 +83,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2236,
+				"buffer_size": 2264,
 				"line_ending": "Windows"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "reflex.css",
 			"settings":
 			{
-				"buffer_size": 2621,
+				"buffer_size": 2732,
 				"line_ending": "Windows"
 			}
 		},
@@ -355,7 +355,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -364,15 +364,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2236,
+						"buffer_size": 2264,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								352,
-								352
+								560,
+								560
 							]
 						],
 						"settings":
@@ -384,7 +384,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -393,15 +393,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2621,
+						"buffer_size": 2732,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1804,
-								1804
+								2327,
+								2327
 							]
 						],
 						"settings":
@@ -410,7 +410,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1171.0,
+						"translation.y": 2106.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -464,13 +464,14 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -527,11 +528,15 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\creep_000\\Documents\\GitHub\\zyluss.github.io\\reflex\\reflex.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
