@@ -1,7 +1,7 @@
 <html>
 <?php
-$live = "up.png";
-$dead = "down.png";
+$live = "http://static.spiceworks.com/images/how_to_steps/0002/6537/up_big.png";
+$dead = "http://static.spiceworks.com/images/how_to_steps/0002/6539/down_big.png";
 
 
 $server = $_GET['server'].":";
