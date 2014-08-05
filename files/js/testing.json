@@ -1,13 +1,1 @@
-<script>
 
-var obj = JSON.parse(text);
-
-document.getElementById("demo").innerHTML =
-obj.name + "<br>" +
-obj.street + "<br>" +
-obj.phone;
-</script>
-var text = 
-{
-"firstname":"Dylan","lastname":"Cooper"
-}
