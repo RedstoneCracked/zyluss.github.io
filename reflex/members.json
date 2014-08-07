@@ -1,3 +1,7 @@
+//Debugging protocol:
+//Syntax, tags then ask creeps
+
+
 {
     "Zyluss": {
         "ign": "Zyluss_",
@@ -58,4 +62,5 @@
         "info": "The new kid on the block",
         "youtube": "ADD_LATER",
         "twitter": "ADD_LATER"
+      }
 }
