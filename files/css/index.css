@@ -50,6 +50,7 @@ a:hover, a:focus
   border-bottom-style:solid;
   padding:1.5%;
   background-color:white;
+  width:30%;
 }
 .maps
 {
@@ -62,6 +63,7 @@ a:hover, a:focus
   border-bottom-style:solid;
   padding:1.5%;
   background-color:white;
+  width:30%;
 }
 
 ul
