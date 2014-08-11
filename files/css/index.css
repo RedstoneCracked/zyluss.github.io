@@ -99,6 +99,16 @@ a[title]:hover:after {
   background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
   background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
 }
+.contact
+{
+font-size:30px;
+margin-top:20%;
+}
+.contact-anchors
+{
+margin-top:25%;
+}
+
 /*Scrollbar stuff that is annoying*/
 
 .scrollbar {
