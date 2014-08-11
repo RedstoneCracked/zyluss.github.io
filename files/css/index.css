@@ -103,12 +103,10 @@ a[title]:hover:after {
 {
 font-size:30px;
 margin-top:10%;
-position:absolute;
 }
 .contact-anchors
 {
 margin-top:11%;
-position:absolute;
 }
 
 /*Scrollbar stuff that is annoying*/
