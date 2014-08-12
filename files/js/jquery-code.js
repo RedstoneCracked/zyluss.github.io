@@ -1,7 +1,7 @@
 $(document).load(function (){
-    $("page").hide();
+    $("div").hide();
   });
 
 $(document).ready(function (){
-    $("page").show();
+    $("div").show();
   });
