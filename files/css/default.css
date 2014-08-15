@@ -71,6 +71,8 @@ a{
   top:0px;
   left:0px;
   position:fixed;
+  width:100%;
+  right:0px;
   
 }
 a:hover{
@@ -81,6 +83,6 @@ a:hover{
   right:0px;
 }
 img{
-  width:64px;
-  height:64px;
+  width:64;
+  height:64;
 }
