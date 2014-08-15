@@ -1,154 +1,86 @@
-
-body {
-  background-color:#CDC5BF;
-  font-family: 'Helvetica Neue', 'Helvetica-Neue', 'Helvetica', 'Roboto', arial, sans-serif;
+body{
+  font-family:'Roboto',sans serif;
+  background:#222;
   font-weight:100;
 }
-
-.header
+.box1
 {
-   margin-top:0px;
-   background-color:#8B7D6B;
-   padding:1.5%;
-   width:70%;
-   top:10px;
+top:25%;
+margin-left:8%;
 }
-a
+.box2
 {
-   text-decoration:none;
-   color:whitesmoke;
-   font-size:25px;
-   margin:15px;
-   transition:0.7s;
+top:25%;
+right:8%;
 }
-a:hover
+.box3
 {
-   color:white;
-   opacity:0.4;
+top:60%;  
+margin-left:8%;
 }
-
-.info
+.box4
 {
-  color:#383838;
-  font-size:25px;
-  top:20%;
-  position:absolute;
-  font-weight:300;
-  padding:1.5%;
-  border-bottom-color:black;
-  border-bottom-width:1px;
-  border-bottom-style:solid;
+top:60%;
+right:8%;
 }
-
-.project
+.box
 {
-  color:#383838;
-  font-size:20px;
-  top:40%;
-  position:absolute;
-  font-weight:300;
-  border-bottom-color:black;
-  border-bottom-style:solid;
-  background-color:white;
-  padding:1.5%;
+color:whitesmoke;
+font-family:'Roboto', Sans serif; 
+font-size:15px;
+height:10%;
+background-color:gray;
+position:absolute;
+padding:2.5%;
+width:30%;
 }
-.maps
+.box:hover
 {
-  color:#383838;
-  font-size:20px;
-  top:75%;
-  position:absolute;
-  font-weight:300;
-  border-bottom-color:black;
-  border-bottom-style:solid;
-  padding:1.5%;
-  background-color:white;
+background-color:#c0c0c0;
+transition:0.7s;
+}
+.footer
+{
+  background-color:#000;
+  margin:0px;
+  margin-top:100%;
+  width:100%;
+  padding-top:1%;
+  padding-bottom:1%;
+  color:white;
+  position:fixed;
+  bottom:0px;
+  right:0px;
+  left:0px;
+  font-size:15px; 
+  letter-spacing:0.4px;
+  word-spacing:2px;
+  text-align:center;
+}
+a{
+  color:white;
+  text-decoration:none;
+  margin:10px;
+  transition:0.7s;
+}
+.navbar{
+  background-color:#C0C0C0;
+  margin:0px;
+  padding:2.5%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  position:fixed;
   
 }
-
-ul
-{
-border-left-style:solid;
-border-left-color:black;
+a:hover{
+  opacity:0.25;
 }
-.social
-{
-float:right;
-width:59px;
-height:59px;
+.social{
+  top:0px;
+  right:0px;
 }
-
-a[title]:hover:after {
-  content: attr(title);
-  padding: 4px 8px;
-  color: #333;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  white-space: nowrap;
-  z-index: 20px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -moz-box-shadow: 0px 0px 4px #222;
-  -webkit-box-shadow: 0px 0px 4px #222;
-  box-shadow: 0px 0px 4px #222;
-  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
-  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
-  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+img{
+  width:64px;
+  height:64px;
 }
-.contact
-{
-font-size:30px;
-margin-top:10%;
-}
-.contact-anchors
-{
-margin-top:11%;
-}
-
-/*Scrollbar stuff that is annoying*/
-
-.scrollbar {
-        height: 150px;
-        display: block;
-        overflow: auto;
-        border: solid 1px #ccc;
-        padding: 10px;
-}
-/* Let's get this party started */
-.scrollbar{
-        scrollbar-base-color: #C0C0C0;
-        scrollbar-base-color: #C0C0C0;
-        scrollbar-3dlight-color: #C0C0C0;
-        scrollbar-highlight-color: #C0C0C0;
-        scrollbar-track-color: #EBEBEB;
-        scrollbar-arrow-color: black;
-        scrollbar-shadow-color: #C0C0C0;
-        scrollbar-dark-shadow-color: #C0C0C0;
-}
-/*.scrollbar*/::-webkit-scrollbar {
-        width: 8px;
-}
-/*.scrollbar*/::-webkit-scrollbar-button {
-        background-color: rgba(0,136,204,0.8);
-}
-/* Track */
-/*.scrollbar*/::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px rgba(0,0,0,0.4);
-}
-/* Handle */
-/*.scrollbar*/::-webkit-scrollbar-thumb {
-        background: rgba(0,136,204,0.8);
-        border-radius:5px;
-        box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
-}
-        .scrollbarsDemo::-webkit-scrollbar-thumb:window-inactive {
-        background: rgba(0,136,204,0.4);
-}  
-  
-
-  
